@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "50961203679",
+    "firebase_url": "https://gyradosvpn.firebaseio.com",
+    "project_id": "gyradosvpn",
+    "storage_bucket": "gyradosvpn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50961203679:android:73be663cd1f25295",
+        "android_client_info": {
+          "package_name": "com.abc.GyradosVPN"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50961203679-79afc1n001lgt6de428skpib23in8g4a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abc.GyradosVPN",
+            "certificate_hash": "81fe407234debc34f5f6a50e83aab0c5f863e277"
+          }
+        },
+        {
+          "client_id": "50961203679-b2v2qcvkqulbfchh76cao10nvuu65mlb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCARkT3vwzAZSe-RjuZV30veN4PVN-D20E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50961203679-b2v2qcvkqulbfchh76cao10nvuu65mlb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

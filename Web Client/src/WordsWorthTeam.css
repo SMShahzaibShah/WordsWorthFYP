@@ -1,0 +1,111 @@
+.teamApp {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(51, 51, 51);
+}
+
+#team{
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 7%;
+}
+#team img{
+  width:  200px;
+  height: 200px;
+  margin-right: 10%;
+}
+#teamTitle{
+  font-size: 24px;
+  font-weight: 300;
+  color: white;
+}
+#teamPos{
+  font-size: 16px;
+  font-weight: 100;
+  color: white;
+}
+#pageTitle1{
+  display: block;
+  border-top: 3px double white;
+  border-bottom: 3px double white;
+  background-color: rgb(51, 51, 51);
+}
+#pageTitle1 p{
+  color: white;
+  font-size: 36px;
+  font-weight: 100;
+}
+#rightColumn div{
+  margin-left: 5%;
+}
+#rightColumn img{
+  margin-left: 5%;
+}
+#rightColumn div div p{
+  width: 300px;
+}
+#rightColumn{
+  display: flex;
+  flex-direction: row;
+}
+#imgRight{
+    transform: rotateY(180deg);
+    margin-left: 10%;
+}
+.fadeIn{
+    background-color: rgb(51, 51, 51);
+    border-right: 1px solid lightblue;
+    width:  50%;
+    height: 100%;
+}
+@media only screen and (max-width: 600px) {
+.teamApp {
+  display: flex;
+  flex-direction: column;
+}
+.fadeIn{
+    width:  100%;
+}
+#pageTitle1{
+  display: block;
+  border-top: 3px double white;
+  border-bottom: 3px double white;
+}
+#pageTitle1 p{
+  font-size: 28px;
+}
+#teamTitle{
+  font-size: 24px;
+}
+#teamPos{
+  font-size: 12px;
+}
+#team img{
+  width:  150px;
+  height: 150px;
+  margin-right: 15%;
+}
+#rightColumn div{
+  margin-left: 25%;
+}
+#rightColumn img{
+  padding-right: 20%;
+}
+#rightColumn div div p{
+  width: auto;
+}
+#rightColumn{
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid white;
+}
+#imgRight{
+    transform: rotateY(180deg);
+    margin-left: 10%;
+}
+}

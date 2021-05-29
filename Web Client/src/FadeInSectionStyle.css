@@ -1,0 +1,29 @@
+.fade-in-section {
+  opacity: 0;
+  transform: translateX(-100vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  background-color: black;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+@media only screen and (max-width: 600px) {
+.fade-in-section {
+  opacity: 0;
+  transform: translateX(-40vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.0s ease-out;
+  will-change: opacity, visibility;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  background-color: rgb(32, 35, 39);
+}
+}
